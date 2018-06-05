@@ -1,0 +1,43 @@
+* {
+    font-family:helvetica;
+    border-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+#wrapper {
+    background-color:white;
+
+}
+
+header {
+    color:rgb(166, 166, 166);
+}
+ul.navigatie {
+    background-color: rgb(0, 0, 0);
+    padding:0px;
+    margin:0px;
+
+
+}
+li.i {
+    color:rgb(255, 255, 255);
+    padding:10px;
+    margin-left:20px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration:none;
+    color:rgb(166, 166, 166);
+
+}
+li {
+    padding-left:40px;
+
+}
+h3{
+    padding:20px;
+}
+h4 {
+    padding:20px;
+}

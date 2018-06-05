@@ -1,0 +1,77 @@
+* {
+    font-family:helvetica;
+    padding:0px;
+    margin:0px;
+}
+iframe {
+    padding-top:20px;
+    padding-left: 40px;
+}
+
+
+#wrapper {
+
+
+}
+ul#Logic {
+    width:20%;
+    float:left;
+}
+ul#Kendrick {
+    width:20%;
+    float:left;
+}
+ul.navigatie {
+
+    background-color: rgb(0, 0, 0);
+    padding:0px;
+    margin:0px;
+
+}
+
+header {
+    background-color:rgb(235, 236, 235) ;
+    padding:20px;
+    padding-top:40px;
+    padding-bottom:50px;
+
+}
+li.i {
+    color:rgb(255, 255, 255);
+    padding:10px;
+    margin-left:20px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration:none;
+    color:rgb(166, 166, 166);
+
+}
+li {
+    padding-left:40px;
+    padding:5px;
+    margin-left: 80px;
+
+}
+h3{
+    padding:20px;
+}
+h4 {
+    padding-left:80px;
+    padding-top:15px;
+    padding:30px;
+}
+section.lyrics {
+    width:500px;
+    padding:40px;
+}
+footer {
+    padding:50px;
+}
+p.foot {
+    padding-top:100px;
+    clear:both;
+    color:black;
+}
+
