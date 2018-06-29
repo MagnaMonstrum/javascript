@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        #CrookEyes {
+            width:400px;
+            height:175px;
+            background-repeat: no-repeat;
+        }
+        #CrookMouth {
+            width:400px;
+            height:200px;
+            background-repeat: no-repeat;
+        }
+        #CrookChin {
+            width:400px;
+            height:200px;
+            margin-left: 40px;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <title>Crook App</title>
+</head>
+<body>
+<div id="CrookEyes"></div>
+<div id="CrookMouth"></div>
+<div id="CrookChin"></div>
+
+<script>
+    var plaatjes = [1, 2, 3];
+    var teller = 0;
+    var CrookEyes = document.getElementById("CrookEyes");
+
+    CrookEyes.style.backgroundImage = "url('img/CrookEyes1.jpg')";
+    CrookEyes.addEventListener("click", function() {
+        CrookEyes.style.backgroundImage = "url('img/CrookEyes" + getCrook() + ".jpg')";
+    });
+    CrookMouth.style.backgroundImage = "url('img/CrookMouth1.jpg')";
+    CrookMouth.addEventListener("click", function() {
+        CrookMouth.style.backgroundImage = "url('img/CrookMouth" + getCrook() + ".jpg')";
+    });
+    CrookChin.style.backgroundImage = "url('img/CrookChin1.jpg')";
+    CrookChin.addEventListener("click", function() {
+        CrookChin.style.backgroundImage = "url('img/CrookChin" + getCrook() + ".jpg')";
+    });
+    function getCrook(){
+        if(teller >= plaatjes.length){
+            teller = 1;
+        } else {
+            teller++;
+        }
+       
+        console.log(teller);
+        return teller;
+    }
+
+</script>
+</body>
+</html>
